@@ -1,0 +1,53 @@
+/**
+header info
+ */
+.header{
+    display: flex;
+    flex-direction: row;
+    padding: 1em;
+    box-shadow:0 1px 1px black;
+    align-items: center;
+}
+
+.accountInfo{
+     flex: 1;
+}
+
+.infoHeaderText{
+    display: block;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.accountNumberText{
+    display: block;
+    font-size: 1.2em;
+}
+
+.copyButton{
+    padding-left: 0.8em;
+    padding-right: 0.8em;
+}
+
+/**
+ detail info
+ */
+.instructionList{
+    padding:0;
+    padding-left: 2em;
+    margin-left: 0em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.instructionListItem{
+    margin: 0.5em 0;
+}
+
+/**
+addinational info
+ */
+.additionalInfo{
+    background-color: #e0e8ff;
+    padding: 1em;
+}
